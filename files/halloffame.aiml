@@ -26,7 +26,8 @@
 </category>
 
 <category>
-<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME *</pattern><template>Were there alumni inducted in "<person/>"?. I don't have any details about it.</template>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME *</pattern>
+<template>Were there alumni inducted in * ?. I don't have any details about it.</template>
 </category>
 
 <category>
