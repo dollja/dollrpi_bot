@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<!--use these tags: star, that, set, get, srai, condition, random, think-->
+
+
+<category>
+    <pattern>HI</pattern>
+    <template>
+    <random>
+     <li>Hello, I am dollrpi bot. I can answer questions about the history of RPI.</li>
+     <li>Hello, I can answer questions about Rensselaer Alumni Hall of Fame.</li>
+     <li>Hello, I am dollrpi bot. I can answer questions about Hall of Fame inductees.</li>
+     <li>Hello, I am dollrpi bot.</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>hi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>HI *</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+!-- Used in a that tag for conversational context -->
+<category>
+    <pattern>SAY YOUR NAME</pattern>
+    <template>My name is <bot name="name"/></template>
+</category>
+
+<category>
+    <pattern>* NAME</pattern>
+    <template><srai>say your name</srai></template>
+</category>
+
+<category>
+    <pattern>COOL</pattern>
+    <that>My name is <bot name="name"/></that>
+    <template>I think my name is funny!</template>
+</category>
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Hello, <star/>.</template>
+</category>
+
+<category> 
+    <pattern>What is my name</pattern> 
+    <template>
+    <condition name="firstname">
+    <li value="unknown">I have not learned your name yet.</li>
+    <li>Your name is <get name="firstname"/>.</li>
+    </condition> 
+    </template> 
+</category>
+
+</aiml>

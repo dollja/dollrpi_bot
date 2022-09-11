@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME FOR * IN *</pattern><template><srai>Hall of Fame<star/>prize<star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>WHO WAS AN INDUCTEE *  IN *</pattern><template><srai>Hall of fame<star/>prize<star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME *</pattern><template>Were there alumni inducted in "<person/>"?. I don't have any details about it.</template>
+</category>
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME IN 2013</pattern><template>B. Jayant Baliga - Power Electronics Innovator (1948 -  )
+Lewis B. Combs - Co-founder of the Seabees (1895–1996)
+Thomas W. Phelan Jr. - Dean, Historian, Counselor (1925–2006)
+Alfred Tredway White - Pioneer in Housing Reform (1846-1921).</template>
+</category>
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME IN 2015</pattern><template>Lewis E. Gurley - Manufacturers of Scientific Instruments (1826-1897)
+William Gurley - Manufacturers of Scientific Instruments (1821-1887)
+Stephen E. Harris - Pioneer in the Science of Light (1936-  )
+William M. Klages - Lighting Designer (1927-  )
+E. Trifon Laskaris - MRI Technology Innovator (1944-  )
+David L. Noble - Inventor of the Floppy Disk (1918-2004)
+John F. Schenck - MRI Pioneer (1939 -  ).</template>
+</category>
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME IN 2017</pattern><template>Alfred P. Boller - Expert in Bridge Engineering (1840-1912)
+Harry H. Rousseau - Panama Canal Builder (1870-1930)
+Wesley A. Brown - Civil Rights Trailblazer (1927-2012).</template>
+</category>
+
+<category>
+<pattern>WHO WAS INDUCTED INTO THE HALL OF FAME IN 2020</pattern><template>John Joseph Albright
+Class of 1868
+Leading industrialist, entrepreneur, and philanthropist
+(1848 – 1931).</template>
+</category>
+
+</aiml>
