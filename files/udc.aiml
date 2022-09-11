@@ -4,10 +4,10 @@
     <pattern>*</pattern>
 <template>
     <random>
-        <li>I'm afraid I have no answer for that.</li>
-        <li>What was that?</li>
-        <li>I don’t understand</li>
-        <li>Can you say that more clearly?</li>
+        <li>I'm afraid I have no answer for that. Please use question format.</li>
+        <li>What was that? Try phrasing as a question</li>
+        <li>I don’t understand. Try something like: Who was inducted in 1999?</li>
+        <li>Can you say that more clearly? Or try something like: Who was inducted in 1999?</li>
     </random>
 </template>
   </category>

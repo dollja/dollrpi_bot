@@ -9,17 +9,39 @@
     <template>
     <random>
      <li>Hello, I am dollrpi bot. I can answer questions about the history of RPI.</li>
-     <li>Hello, I can answer questions about Rensselaer Alumni Hall of Fame.</li>
+     <li>Hello, I can answer questions about Rensselaer Alumni Hall of Fame. Please enter a year</li>
      <li>Hello, I am dollrpi bot. I can answer questions about Hall of Fame inductees.</li>
-     <li>Hello, I am dollrpi bot.</li>
+     <li>Hello, please ask me about RPI Alumni members who were inducted between 2013 and 2020.</li>
     </random>
     </template>
 </category>
 
+
+<category>
+<pattern>WHAT QUESTIONS CAN I ASK</pattern>
+<template>Would you like to know more about RPI’S recent Hall of Fame inductees? </template>
+</category>
+
+<category>
+<pattern>* CAN I ASK</pattern>
+<template><srai>WHAT QUESTIONS CAN I ASK</srai></template>
+</category>
+
+<category>
+<pattern>WHAT QUESTIONS *</pattern>
+<template><srai>WHAT QUESTIONS CAN I ASK</srai></template>
+</category>
+
+
+<category>
+<pattern>WHATYEAR</pattern>
+<template>
+Please choose a year between 2013 and 2020 I will tell you which RPI Alumini members were inducted into the Hall of Fame.</template>
+</category>
+
 <category>
     <pattern>HELLO</pattern>
-    <template><srai>hi</srai>
-    </template>
+    <template><srai>hi</srai></template>
 </category>
 
 <category>
