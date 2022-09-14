@@ -5,7 +5,7 @@ Contains the files for dollrpi
 halloffame.aiml
 Last update: September 10 2022
 
-The bot can list names and information about RPI Alumni who have been inducted into the Hall of Fame when enter a question about the induction year. 
+The bot can list names and information about RPI Alumni who have been inducted into the Hall of Fame when you enter a question about an induction year. 
 Right now, it covers years 2013-2020. It works out misunderstandings like:
 
 	Human: I don't know what questions to ask.
