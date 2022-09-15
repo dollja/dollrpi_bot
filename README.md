@@ -1,9 +1,6 @@
 # dollrpi_bot
 Contains the files for dollrpi
 
-
-Contains the files for dollrpi
-halloffame.aiml
 Last update: September 10 2022
 
 The bot can list names and information about RPI Alumni who have been inducted into the Hall of Fame when you enter a question about an induction year. 
